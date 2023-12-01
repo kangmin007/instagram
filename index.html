@@ -1,78 +1,115 @@
 <html>
     <head>
-        <link href="style.css" rel="stylesheet"
+        <link href = "style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/4f28d4d017.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
     </head>
     <body>
-
-        <div>
+        <div id="top">
             <img src="https://upload.wikimedia.org/wikipedia
 /commons/thumb/2/2a/Instagram_logo.svg/1024px-Instagram_
-logo.svg.png" width="150px"/>
+logo.svg.png"/>
+            <input type="search" value="검색"/>
+            <div>
+                <i class="fas fa-home"></i>
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
+            </div>
         </div>
 
         <div id="profile">
-            <img src="image/profile.jpg" width="50px"/>
-            <div>
-                <h2>kk.22_22</h2>
+            <div id="profile_pic">
+                <img class="circle_pic" src="image/profile.jpg"/>
+            </div>
+            <div id="profile_info">
+                <div id="id">
+                    <span>kk.22_22&nbsp;</span>
+                    <i class="fas fa-cog"></i>
+                </div>
                 <button>프로필 편집</button>
             </div>    
         </div>
-
+        
         <div>
             <p>
-                <strong>
+                <strong id ="userInfo">
                     김강민
                 </strong><br/>
-                24<br/>
+                <span id = "summary">24</span>
             </p>
-            <p>
+            <p id = "profileDetail">
                 <a href = "https://github.com/kangmin007">
                     github.com/kangmin007
                 </a>
             </p>
         </div>
 
-        <div>
+        <div id="highlight_area">
             <div class="highlight">
-                <div>
-                    <img src="image/h1 1.jpg" height="35px"/>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/h1 1.jpg"/>
                 </div>
                 <div>
                     😀
                 </div>
             </div>
             <div class="highlight">
-                <div>
-                    <img src="image/h1 2.jpg" height="35px"/>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/h1 2.jpg"/>
                 </div>
                 <div>
                     😫
                 </div>
             </div>
         </div>
-            <div>
-                <div>
-                    게시물<br/>
-                    133
+        <div id="stat_bar">
+            <div class="stat">
+                게시물<br/>
+                133
+            </div>
+            <div class="stat">
+                팔로워<br/>
+                588
+            </div>
+            <div class="stat"> 
+                팔로잉<br/>
+                549
+            </div>
+        </div>
+        </div>
+
+        <div>
+            <div id="sub_icons">
+                <div class="selected">
+                    <i class="fas fa-border-all"></i>
                 </div>
                 <div>
-                    팔로워<br/>
-                    588
+                    <i class="fas fa-film"></i>
                 </div>
                 <div>
-                    팔로잉<br/>
-                    549
+                    <i class="far fa-play-circle"></i>
+                </div>
+                <div>
+                    <i class="far fa-bookmark"></i>
+                </div>
+                <div>
+                    <i class="fas fa-user-tag"></i>
                 </div>
             </div>
         </div>
 
-        <div>아이콘이 들어갈 자리</div>
-
         <div>
-            <img src="image/thumbnails/1.jpg" width="32%" height="32%">
-            <img src="image/thumbnails/2.jpg" width="32%" height="32%">
-            <img src="image/thumbnails/3.jpg" width="32%" height="32%">
+            <div class="thumbnail_gird">
+                <img src="image/thumbnails/1.jpg" width="32%" height="32%">
+                <img src="image/thumbnails/2.jpg" width="32%" height="32%">
+                <img src="image/thumbnails/3.jpg" width="32%" height="32%">
+            </div>
+            <div>
+                <img src="image/thumbnails/4.jpg" width="32%" height="32%">
+                <img src="image/thumbnails/5.jpg" width="32%" height="32%">
+            </div>
         </div>
-      
+        
     </body>
 </html>
